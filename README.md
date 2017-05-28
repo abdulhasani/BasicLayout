@@ -1,6 +1,6 @@
 # BasicLayout
 
-Refrensi web<br/>
+Referensi web<br/>
 
 * https://developer.android.com/guide/topics/ui/declaring-layout.html?hl=id
 * http://www.okedroid.com
