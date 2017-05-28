@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/textViewAbsoluteLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="30dp"
+        android:text="Contoh AbsoluteLayout"
+        android:textColor="#333"
+        android:textSize="24sp"
+        />
+    <Button
+        android:id="@+id/buttonAbsoluteLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="90dp"
+        android:layout_y="120dp"
+        android:text="Button in AbsoluteLayout"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="200dp"
+        android:text="Android AbsoluteLayout"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/toggleButtonAbsoluteLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="280dp"
+        />
+    <Button
+        android:id="@+id/toggleButtonAbsoluteLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="280dp"
+        android:text="Button 2"
+        />
 </AbsoluteLayout>
