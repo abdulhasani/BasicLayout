@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
 
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="22dp"
+            android:background="#4CAF50"
+            android:drawableLeft="@drawable/iconkiriatas"
+            android:padding="16dp"
+            android:text="Button (Icon Kiri)" />
+
+        <Button
+            android:id="@+id/button3"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:layout_margin="16dp"
+            android:drawableBottom="@drawable/iconkiribawah"
+            android:padding="16dp"
+            android:text="Button (Icon Bawah)" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_margin="16dp"
+            android:background="#CDDC39"
+            android:drawableTop="@drawable/iconkananatas"
+            android:padding="24dp"
+            android:text="Button (Icon Kanan)"
+            />
+
+        <Button
+            android:id="@+id/button6"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_margin="16dp"
+            android:layout_weight="0.32"
+            android:drawableRight="@drawable/iconkananbawah"
+            android:paddingBottom="16dp"
+            android:text="Button (Icon Kanan Bawah)"
+            />
+
+    </LinearLayout>
 </LinearLayout>
